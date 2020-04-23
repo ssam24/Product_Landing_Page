@@ -1,0 +1,149 @@
+
+@media all and (max-width: 800px) {
+    body {  
+      background-color:#FBE8D9; 
+    }
+    sidebar {display:none;}
+  }
+body{
+    width: 100%;
+}
+#pagina{
+    position: relative;
+}
+#header { 
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    min-height: 95px; 
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 3%; 
+    background-color: #F4F1FE; 
+}
+img {
+    width: 250px;
+    height: 90px;
+}
+#nav-bar ul {
+         color: white;
+         display: flex; 
+         flex-wrap: wrap;
+         flex-direction: row; 
+         align-items: center;
+         text-align: right;
+         padding-bottom: 5px;
+         list-style: none; 
+
+}
+#nav-bar ul li { 
+    
+    padding-right: 30px;
+    padding-bottom: 5px; 
+    
+}
+a{
+    color:rebeccapurple; 
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+    }
+ 
+#form {
+    position: static;
+    margin-top: 100px;
+    width: 60px;
+    justify-content: center;
+    text-align: center;
+}
+#form #email {
+    width: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: medium;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#submit {
+    width: 150px;
+    padding: 2px 2px 2px 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: medium;
+    margin-right: 5%;
+}
+#footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    text-align: center;
+    background-color: #F0E9F8 ; 
+    width: 100%;
+}
+.productos {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: #444444; 
+    text-align: center;
+}
+.productos ul {
+    color: white;
+    display: flex;  
+    flex-wrap: wrap; 
+    flex-direction: column; 
+    align-items: center;
+    text-align: right;
+    padding-bottom: 5px;
+    list-style: none; 
+}
+ul li {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    align-content: center; 
+    
+}
+#precios{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: #444444; 
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap; 
+    align-items: center;
+}
+#precios ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    color: #444444; 
+    text-align: center;
+   
+}
+#precios ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: large;
+    text-align: center; 
+    width: 300px;
+    list-style: none;
+
+}
+.borde{
+    border: black 1px solid; 
+    border-radius: 2%;
+    margin-left: auto;
+    margin-top: 5px;
+
+}
